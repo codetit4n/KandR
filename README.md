@@ -1,6 +1,9 @@
 # KandR
 
-Implementation of the exercises in K&amp;R C book
+> [!WARNING]\
+> Work in progress.
+
+Implementation of the exercises in K&amp;R C book.
 
 ```
 Usage:
@@ -11,3 +14,5 @@ Usage:
 Layout:
   src/1-1.c, src/2-4.c, ...
 ```
+
+> Here, `<ex>` is the exercise number, e.g. `1-1` for exercise 1-1.
