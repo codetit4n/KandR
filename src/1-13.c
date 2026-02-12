@@ -40,7 +40,7 @@ int main() {
 		if (lens[c] > 0) {
 			printf("%2d: ", c);
 			for (j = 0; j < lens[c]; j++) {
-				putchar('*');
+				printf("* ");
 			}
 			putchar('\n');
 		}
