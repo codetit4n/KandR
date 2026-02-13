@@ -11,12 +11,12 @@ EX_ONE := $(firstword $(EX))
 
 help:
 	@echo "Usage:"
-	@echo "  make <ex>        Build src/<ex>.c -> build/<ex>     (e.g. make 1-1)"
-	@echo "  make run <ex>    Build (if needed) and run          (e.g. make run 1-1)"
+	@echo "  make <ex>        Build src/<ex>.c -> build/<ex>     (e.g. make 1-3)"
+	@echo "  make run <ex>    Build (if needed) and run          (e.g. make run 1-3)"
 	@echo "  make clean       Remove the build directory"
 	@echo ""
 	@echo "Layout:"
-	@echo "  src/1-1.c, src/2-4.c, ..."
+	@echo "  src/1-3.c, src/2-4.c, ..."
 
 %:
 	@mkdir -p $(BUILD)
@@ -30,7 +30,7 @@ help:
 
 run: $(EX_ONE)
 	@if [ -z "$(EX_ONE)" ] || [ "$(words $(EX))" -ne 1 ]; then \
-		echo "Usage: make run <ex>   (example: make run 1-1)" 1>&2; \
+		echo "Usage: make run <ex>   (example: make run 1-3)" 1>&2; \
 		exit 1; \
 	fi
 	@echo "[RUN] ./$(BUILD)/$(EX_ONE)"
