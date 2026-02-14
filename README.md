@@ -3,7 +3,7 @@
 > [!WARNING]\
 > Work in progress.
 
-Implementation of the exercises in K&amp;R C book.
+Implementation of the exercises in K&amp;R C book. Just to sharpen my C skills.
 
 ```
 Usage:
