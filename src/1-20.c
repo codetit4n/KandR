@@ -10,6 +10,7 @@ Should n be a variable or a symbolic parameter?
 
 #define TAB_STOP 4
 
+/* detab */
 int main() {
 
 	int c = 0, col = 0;
